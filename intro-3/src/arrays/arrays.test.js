@@ -188,7 +188,7 @@ describe('mergeArraysUnique', () => {
   })
 })
 
-describe.only('sortBy', () => {
+describe('sortBy', () => {
   const array = [
     { quantity: 341, productId: 1001 },
     { quantity: 456, productId: 212 },
