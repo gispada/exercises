@@ -1,0 +1,34 @@
+[
+  {
+    "id": "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+    "name": "Burger",
+    "namePlural": "Burgers"
+  },
+  {
+    "id": "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+    "name": "Ice cream",
+    "namePlural": "Ice creams",
+    "hidden": true
+  },
+  {
+    "id": "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
+    "name": "Pizza",
+    "namePlural": "Pizzas"
+  },
+  {
+    "id": "259abf21-a459-4d04-be6b-4600c304eca0",
+    "name": "Sushi",
+    "namePlural": "Sushi"
+  },
+  {
+    "id": "baacf841-cea2-4288-a6be-2ab804ccec14",
+    "name": "Vegetable",
+    "namePlural": "Vegetables",
+    "hidden": true
+  },
+  {
+    "id": "9a485e6d-260b-4de0-9261-69e0586e22e0",
+    "name": "Special",
+    "namePlural": "Special"
+  }
+]

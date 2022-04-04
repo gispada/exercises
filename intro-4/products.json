@@ -1,0 +1,566 @@
+[
+  {
+    "id": "3c8a9a55-08b1-4e91-89b9-840f76b27df6",
+    "name": "Hawaii Burger",
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "available": true,
+    "new": false,
+    "stock": 6,
+    "rating": 4.0,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 13.64
+    },
+    "size": {
+      "value": 440,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-28.png"
+  },
+  {
+    "id": "98aad72e-653f-4f5d-a6b1-67aefbbe94a0",
+    "name": "Hawaii Burger",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "available": true,
+    "new": true,
+    "stock": 7,
+    "rating": 4.8,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": 0.25,
+    "price": {
+      "type": "USD",
+      "value": 10.93
+    },
+    "size": {
+      "value": 400,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-32.png"
+  },
+  {
+    "id": "4522a6ee-37fb-4c16-9cf7-13270d8c1c77",
+    "name": "Buffalo Burger",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "available": true,
+    "new": false,
+    "stock": 2,
+    "rating": 3.7,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": 0.3,
+    "price": {
+      "type": "USD",
+      "value": 10.64
+    },
+    "size": {
+      "value": 400,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-38.png"
+  },
+  {
+    "id": "b1f02b29-45ad-4009-9e49-395dba872f5b",
+    "name": "Hawaii Burger",
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "available": false,
+    "new": true,
+    "stock": 4,
+    "rating": 4.1,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 11.08
+    },
+    "size": {
+      "value": 340,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "baacf841-cea2-4288-a6be-2ab804ccec14"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-39.png"
+  },
+  {
+    "id": "b2c9b65e-c0b3-4545-8b57-fa09ea49e607",
+    "name": "Burger King",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 4.4,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 10.8
+    },
+    "size": {
+      "value": 380,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-41.png"
+  },
+  {
+    "id": "29c692b0-276c-4391-8749-ce2343fd1834",
+    "name": "Angus Burger",
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+    "available": true,
+    "new": false,
+    "stock": 6,
+    "rating": 3.3,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 10.7
+    },
+    "size": {
+      "value": 440,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-42.png"
+  },
+  {
+    "id": "61142b06-3135-41a5-a73e-3944ac2c1b90",
+    "name": "Burger King",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "available": false,
+    "new": false,
+    "stock": 9,
+    "rating": 3.8,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 10.88
+    },
+    "size": {
+      "value": 440,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-16.png"
+  },
+  {
+    "id": "23127383-818d-4428-826e-0579a9987e38",
+    "name": "Wisconsin Burger",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "available": true,
+    "new": true,
+    "stock": 1,
+    "rating": 4.9,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 10.21
+    },
+    "size": {
+      "value": 400,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-17.png"
+  },
+  {
+    "id": "f6be1b85-c0f6-418a-9431-4ac37028c306",
+    "name": "Wisconsin Burger",
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "available": true,
+    "new": true,
+    "stock": 6,
+    "rating": 4.1,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 11.01
+    },
+    "size": {
+      "value": 440,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "baacf841-cea2-4288-a6be-2ab804ccec14",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-21.png"
+  },
+  {
+    "id": "8e6ecb89-29e3-4a23-bffc-210ac5fbc1ed",
+    "name": "Hawaii Burger",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "available": true,
+    "new": false,
+    "stock": 7,
+    "rating": 3.1,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": 0.25,
+    "price": {
+      "type": "USD",
+      "value": 13.6
+    },
+    "size": {
+      "value": 380,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-56.png"
+  },
+  {
+    "id": "b35aebc1-67d1-4351-b73c-ede827e842a9",
+    "name": "Angus Burger",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "available": true,
+    "new": false,
+    "stock": 4,
+    "rating": 3.9,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 13.46
+    },
+    "size": {
+      "value": 400,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-16.png"
+  },
+  {
+    "id": "b5e5d2b8-004a-4fba-83aa-d33a6d0865e6",
+    "name": "Burger King",
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "available": true,
+    "new": true,
+    "stock": 9,
+    "rating": 4.2,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.3,
+    "price": {
+      "type": "USD",
+      "value": 12.13
+    },
+    "size": {
+      "value": 340,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "baacf841-cea2-4288-a6be-2ab804ccec14"
+    ],
+    "imageUrl": "https://clipart-best.com/img/burger-sandwich/burger-sandwich-clip-art-13.png"
+  },
+  {
+    "id": "3b44b5ec-d6ce-4c2b-a75c-c1ac2ca2912a",
+    "name": "Pizza Paradise",
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 3.9,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 12.11
+    },
+    "size": {
+      "value": "large",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
+      "baacf841-cea2-4288-a6be-2ab804ccec14"
+    ],
+    "imageUrl": "https://clipart-best.com/img/pizza/pizza-clip-art-15.png"
+  },
+  {
+    "id": "3ba5fd86-2a37-4ba9-ac74-b43e30ffc29a",
+    "name": "Union Pizza",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "available": true,
+    "new": true,
+    "stock": 9,
+    "rating": 4.9,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.3,
+    "price": {
+      "type": "USD",
+      "value": 15.43
+    },
+    "size": {
+      "value": "large",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880"
+    ],
+    "imageUrl": "https://clipart-best.com/img/pizza/pizza-clip-art-18.png"
+  },
+  {
+    "id": "8406a2b1-c9c6-4a2f-b151-27d9d30b78ed",
+    "name": "Broadway Pizza",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "available": true,
+    "new": false,
+    "stock": 2,
+    "rating": 3.9,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 13.49
+    },
+    "size": {
+      "value": "medium",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/pizza/pizza-clip-art-19.png"
+  },
+  {
+    "id": "fc3c30ba-0fc7-41d8-bc75-91683c8d90a2",
+    "name": "Pizza Patron",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "available": true,
+    "new": true,
+    "stock": 3,
+    "rating": 4.5,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 12.03
+    },
+    "size": {
+      "value": "small",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880"
+    ],
+    "imageUrl": "https://clipart-best.com/img/pizza/pizza-clip-art-23.png"
+  },
+  {
+    "id": "9261bbbc-86d9-425a-85e1-79cdc4087f5e",
+    "name": "Papa John’s",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "available": true,
+    "new": false,
+    "stock": 9,
+    "rating": 3.6,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 13.63
+    },
+    "size": {
+      "value": "small",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/pizza/pizza-clip-art-5.png"
+  },
+  {
+    "id": "41e9cd71-76ad-4400-a9d4-c5393d46668b",
+    "name": "Speedy Gonzalez",
+    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 3.6,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 9.95
+    },
+    "size": {
+      "value": "medium",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880"
+    ],
+    "imageUrl": "https://sinaxi.it/wp-content/uploads/2020/12/slider-domicilius-delivery-pizza.png"
+  },
+  {
+    "id": "d0d20da8-0d28-40d0-aa30-5e9b7915ed7f",
+    "name": "Speedy Gonzalez",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "available": false,
+    "new": true,
+    "stock": 8,
+    "rating": 4.7,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 14.48
+    },
+    "size": {
+      "value": "large",
+      "type": "preset"
+    },
+    "tags": [
+      "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
+      "baacf841-cea2-4288-a6be-2ab804ccec14"
+    ],
+    "imageUrl": "https://www.nicepng.com/png/full/68-689198_pizza-download-png-image-meat-pizza-png.png"
+  },
+  {
+    "id": "8987aef0-c8e8-4066-b9fd-e6b64b51f586",
+    "name": "Ikura",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "available": true,
+    "new": true,
+    "stock": 9,
+    "rating": 3.6,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 12.0
+    },
+    "size": {
+      "value": 200,
+      "type": "gram"
+    },
+    "tags": [
+      "259abf21-a459-4d04-be6b-4600c304eca0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/sushi/sushi-clip-art-29.png"
+  },
+  {
+    "id": "ce8b994c-bc21-460c-b994-b9e9d28e7e2f",
+    "name": "Hokkigai",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "available": true,
+    "new": true,
+    "stock": 9,
+    "rating": 3.0,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 12.77
+    },
+    "size": {
+      "value": 240,
+      "type": "gram"
+    },
+    "tags": [
+      "259abf21-a459-4d04-be6b-4600c304eca0",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/sushi/sushi-clip-art-61.png"
+  },
+  {
+    "id": "00b59df6-9705-43b7-ab47-783520812668",
+    "name": "Maguro",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "available": true,
+    "new": true,
+    "stock": 6,
+    "rating": 3.0,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.3,
+    "price": {
+      "type": "USD",
+      "value": 14.27
+    },
+    "size": {
+      "value": 200,
+      "type": "gram"
+    },
+    "tags": [
+      "259abf21-a459-4d04-be6b-4600c304eca0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/sushi/sushi-clip-art-35.png"
+  },
+  {
+    "id": "a4c7455c-1929-47b8-b873-8c9ddd4e159d",
+    "name": "Unagi",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "available": true,
+    "new": true,
+    "stock": 5,
+    "rating": 3.6,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 12.48
+    },
+    "size": {
+      "value": 240,
+      "type": "gram"
+    },
+    "tags": [
+      "259abf21-a459-4d04-be6b-4600c304eca0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/sushi/sushi-clip-art-36.png"
+  },
+  {
+    "id": "1d4f694c-d352-47c2-8da9-a48ce231f5a8",
+    "name": "Hamachi",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "available": true,
+    "new": true,
+    "stock": 10,
+    "rating": 3.5,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.2,
+    "price": {
+      "type": "USD",
+      "value": 14.59
+    },
+    "size": {
+      "value": 240,
+      "type": "gram"
+    },
+    "tags": [
+      "259abf21-a459-4d04-be6b-4600c304eca0",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://clipart-best.com/img/sushi/sushi-clip-art-19.png"
+  }
+]
