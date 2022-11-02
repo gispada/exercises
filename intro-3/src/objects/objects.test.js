@@ -8,7 +8,9 @@ import {
   getCachedValue,
   arrayToObjectDeep,
   hasValidProperty,
-  normalizeObject
+  normalizeObject,
+  getTreeDepth,
+  countTreeLeafNodes
 } from './objects'
 
 describe('cloneObject', () => {
@@ -296,5 +298,54 @@ describe('normalizeObject', () => {
       }
     ]
     expect(normalizeObject(object)).toEqual(result)
+  })
+})
+
+const tree = {
+  value: 'A',
+  children: [
+    {
+      value: 'B',
+      children: [
+        {
+          value: 'E',
+          children: [{ value: 'K' }, { value: 'L' }, { value: 'M' }]
+        },
+        { value: 'F', children: [{ value: 'N' }, { value: 'O' }] }
+      ]
+    },
+    {
+      value: 'C',
+      children: [
+        { value: 'G', children: [{ value: 'P' }] },
+        { value: 'H', children: [{ value: 'Q' }, { value: 'R' }] }
+      ]
+    },
+    {
+      value: 'D',
+      children: [
+        {
+          value: 'I',
+          children: [
+            { value: 'S' },
+            { value: 'T' },
+            { value: 'U', children: [{ value: 'X' }, { value: 'Y' }] }
+          ]
+        },
+        { value: 'J', children: [{ value: 'V' }, { value: 'W' }] }
+      ]
+    }
+  ]
+}
+
+describe('getTreeDepth', () => {
+  it('Gets the correct depth for the tree', () => {
+    expect(getTreeDepth(tree)).toEqual(5)
+  })
+})
+
+describe('countTreeLeafNodes', () => {
+  it('Gets the correct number of leaf nodes', () => {
+    expect(countTreeLeafNodes(tree)).toEqual(14)
   })
 })

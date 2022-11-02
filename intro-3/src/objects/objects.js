@@ -45,3 +45,17 @@ export function hasValidProperty(object, predicate) {}
 // Ritornare un array con i due oggetti (vedere il test per altri esempi)
 // Idealmente dovrebbe funzionare per ogni oggetto trovato dentro l'oggetto di partenza, anche quelli annidati
 export function normalizeObject(object) {}
+
+// Dato un tree del tipo
+// 1.       A
+//        / | \
+// 2.    B  C  D
+//      / \
+// 3.  E   F
+// restituire la profondità (in questo caso 3)
+// Il tree ha la seguente struttura: { value: 'A', children: [{ value: 'B', children: [...] }, { value: 'C' }] }
+export function getTreeDepth(tree) {}
+
+// Dato un tree come sopra, contare il numero di nodi "leaf", cioè quelli senza ulteriori figli (0 children)
+// Considerando l'esempio sopra, i nodi "leaf" sono 4 (C, D, E, F)
+export function countTreeLeafNodes(tree) {}
