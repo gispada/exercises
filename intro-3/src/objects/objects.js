@@ -1,3 +1,5 @@
+import booleanIntersects from '@turf/boolean-intersects'
+
 // Clonare l'oggetto
 export function cloneObject(object) {}
 
@@ -59,3 +61,24 @@ export function getTreeDepth(tree) {}
 // Dato un tree come sopra, contare il numero di nodi "leaf", cioè quelli senza ulteriori figli (0 children)
 // Considerando l'esempio sopra, i nodi "leaf" sono 4 (C, D, E, F)
 export function countTreeLeafNodes(tree) {}
+
+// Dati un oggetto e un path di tipo stringa, `get` deve restituire la proprietà al path specificato.
+// Se path contiene punti, si tratta di proprietà annidate. `get` deve funzionare anche con gli array,
+// specificando un numero come indice. Se la proprietà non esiste ritornare fallback o undefined.
+// Es. 1: { address: { city: 'New York' } } e 'address.city' ritorna 'New York'
+// Es. 2: { movies: ['Shrek', 'Shrek 2'] } e 'movies.1' ritorna 'Shrek 2'
+export function get(object, path, fallback) {}
+
+// Dato un oggetto con una struttura non uniforme contentente informazioni geografiche
+// su strade e punti di interesse, generare un oggetto GeoJSON (RFC 7946) valido.
+// NOTA: per avere un'idea dell'input vedere il test corrispondente,
+// per il GeoJSON finale da generare vedere il file `mock.js`.
+export function createGeoJSON(data) {}
+
+// Dati un array contentente le coordinate [lng, lat] di alcune geometrie (linee e punti),
+// e un punto con coordinate [lng, lat], stabilire se il punto interseca una o più geometrie del primo array.
+// Se sì, convertire l'array in un oggetto GeoJSON valido, dove la/le feature intersecate
+// hanno `highlighted: true` all'interno dell'oggetto `properties`. Se il punto non interseca nulla, ritornare null.
+// Per vedere i dati in input e il risultato finale, fare riferimento ai test.
+// NOTA: usare booleanIntersects (https://turfjs.org/docs/#booleanIntersects) per controllare se una geometria ne interseca un'altra.
+export function highlightActiveFeatures(geoJSON, point) {}

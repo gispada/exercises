@@ -19,7 +19,12 @@ import {
   areItemsValid,
   populate,
   getTotal,
-  populatePosts
+  populatePosts,
+  map,
+  filter,
+  reduce,
+  some,
+  every
 } from './arrays'
 import { usersSimple, products, posts, comments, users } from '../mock'
 
@@ -466,5 +471,100 @@ describe('populatePosts', () => {
       }
     ]
     expect(populatePosts(posts, comments, users)).toEqual(result)
+  })
+})
+
+describe('map', () => {
+  it('Correctly maps an array of numbers', () => {
+    expect(map([1, 2, 3, 4, 5], (n) => n * 2)).toEqual([2, 4, 6, 8, 10])
+  })
+
+  it('Correctly maps an array of objects', () => {
+    expect(
+      map(products, ({ product, price }) => `${product}: ${price}$`)
+    ).toEqual(['P1: 50$', 'P90: 120$', 'P8: 78$', 'P12: 189$', 'P33: 199$'])
+  })
+
+  it('Correcly maps an array taking into account indexes', () => {
+    expect(map([1, 2, 3, 4, 5], (n, i) => n * i)).toEqual([0, 2, 6, 12, 20])
+  })
+})
+
+describe('filter', () => {
+  it('Correctly filters an array of numbers', () => {
+    expect(filter([1, 2, 3, 4, 5], (n) => n % 2 === 0)).toEqual([2, 4])
+  })
+
+  it('Correctly filters an array of objects', () => {
+    expect(filter(usersSimple, ({ age }) => age < 30)).toEqual([
+      { id: 3, name: 'Jane', age: 23 }
+    ])
+  })
+
+  it('Correcly filters an array taking into account indexes', () => {
+    expect(filter([1, 2, 3, 4, 5], (_, i) => i > 0)).toEqual([2, 6, 12, 20])
+  })
+})
+
+describe('some', () => {
+  it('Returns true when at least one element satisfies the condition', () => {
+    expect(
+      some([null, 0, undefined, 'hello', null], (x) => typeof x === 'string')
+    ).toEqual(true)
+  })
+
+  it('Returns false when no element satisfies the condition', () => {
+    expect(some([1, 2, 3], (x) => typeof x === 'string')).toEqual(false)
+  })
+})
+
+describe('every', () => {
+  it('Returns true when all elements satisfy the condition', () => {
+    expect(every([1, 2, 3], (n) => Number.isFinite(n))).toEqual(true)
+  })
+
+  it('Returns false when not all elements satisfy the condition', () => {
+    expect(every(['A', 'B', 3], (x) => typeof x === 'string')).toEqual(false)
+  })
+})
+
+describe('reduce', () => {
+  it('Correctly reduces an array of numbers with an initial value', () => {
+    expect(
+      reduce([1, 2, 3, 4, 5], (acc, n) => acc + n),
+      100
+    ).toEqual(115)
+  })
+
+  it('Correctly reduces an array of numbers without an initial value', () => {
+    expect(reduce([1, 2, 3, 4, 5], (acc, n) => acc + n)).toEqual(15)
+  })
+
+  it('Correctly reduces an array into an object', () => {
+    expect(
+      reduce(
+        [
+          { id: 'A', name: 'B' },
+          { id: 'B', name: 'C' },
+          { id: 'D', name: 'E' }
+        ],
+        (acc, value) => ({ ...acc, [value.id]: value }),
+        {}
+      )
+    ).toEqual({
+      A: { id: 'A', name: 'B' },
+      B: { id: 'B', name: 'C' },
+      C: { id: 'D', name: 'E' }
+    })
+  })
+
+  it('Correctly reduces an array into a string taking into account indexes', () => {
+    expect(
+      reduce(
+        ['A', 'B', 'C', 'D', 'E'],
+        (acc, value, i) => `${acc}${i + 1}. ${value}; `,
+        ''
+      )
+    ).toEqual('1. A; 2. B; 3. C; 4. D; 5. E; ')
   })
 })

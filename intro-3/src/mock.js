@@ -81,3 +81,48 @@ export const posts = [
     body: 'et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut'
   }
 ]
+
+export const geoJSON = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [11.1215698, 46.0677293]
+      },
+      properties: {
+        name: "Fontana dell'Aquila"
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [11.34267, 44.49423]
+      },
+      properties: {
+        name: 'Fontana del Nettuno'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'LineString',
+        coordinates: [
+          [11.1214686, 46.0677385],
+          [11.121466, 46.0677511],
+          [11.1213806, 46.0681452],
+          [11.1213548, 46.0682642],
+          [11.1213115, 46.0684385],
+          [11.1212897, 46.0685261],
+          [11.1212678, 46.0686443]
+        ]
+      },
+      properties: {
+        lanes: 1,
+        name: 'Via Rodolfo Belenzani'
+      }
+    }
+  ]
+}

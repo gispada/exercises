@@ -74,7 +74,7 @@ export function setSelected(array, selectedIds) {}
 // Dato un array di oggetti, rimapparlo estraendo la chiave specificata
 // Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'B' }] con chiave 'name'
 // deve restituire ['A', 'B', 'C']
-// Se la chiave non esiste, ritornare l'array originale
+// Se la chiave non esiste, ritornare l'elemento originale
 export function mapTo(array, key) {}
 
 // Dato un array di oggetti e una funzione `predicate`, eseguire la funzione per ogni elemento
@@ -104,3 +104,18 @@ export function getTotal(products, discounts) {}
 // Se non ci sono commenti, comments deve essere un array vuoto
 // Controllare il risultato del test per vedere come deve essere l'array finale
 export function populatePosts(posts, comments, users) {}
+
+// Implementare il metodo nativo Array.map()
+export function map(array, mapper) {}
+
+// Implementare il metodo nativo Array.filter()
+export function filter(array, predicate) {}
+
+// Implementare il metodo nativo Array.some()
+export function some(array, predicate) {}
+
+// Implementare il metodo nativo Array.every()
+export function every(array, predicate) {}
+
+// Implementare il metodo nativo Array.reduce()
+export function reduce(array, reducer, initialState) {}
