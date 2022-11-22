@@ -502,7 +502,7 @@ describe('filter', () => {
   })
 
   it('Correcly filters an array taking into account indexes', () => {
-    expect(filter([1, 2, 3, 4, 5], (_, i) => i > 0)).toEqual([2, 6, 12, 20])
+    expect(filter([1, 2, 3, 4, 5], (_, i) => i > 0)).toEqual([2, 3, 4, 5])
   })
 })
 
@@ -554,7 +554,7 @@ describe('reduce', () => {
     ).toEqual({
       A: { id: 'A', name: 'B' },
       B: { id: 'B', name: 'C' },
-      C: { id: 'D', name: 'E' }
+      D: { id: 'D', name: 'E' }
     })
   })
 
