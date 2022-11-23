@@ -540,6 +540,13 @@ describe('reduce', () => {
     expect(reduce([1, 2, 3, 4, 5], (acc, n) => acc + n)).toEqual(15)
   })
 
+  it('Correctly reduces an array of numbers with an initial value of 0', () => {
+    expect(
+      reduce([1, 2, 3, 4, 5], (acc, n) => acc * n),
+      0
+    ).toEqual(0)
+  })
+
   it('Correctly reduces an array into an object', () => {
     expect(
       reduce(
