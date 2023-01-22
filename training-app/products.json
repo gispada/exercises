@@ -33,8 +33,8 @@
     "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
     "discountRate": 0.25,
     "price": {
-      "type": "USD",
-      "value": 10.93
+      "type": "EUR",
+      "value": 12.93
     },
     "size": {
       "value": 400,
@@ -151,8 +151,8 @@
     "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
     "discountRate": null,
     "price": {
-      "type": "USD",
-      "value": 10.88
+      "type": "EUR",
+      "value": 11.88
     },
     "size": {
       "value": 440,
@@ -457,7 +457,7 @@
     "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
     "discountRate": null,
     "price": {
-      "type": "USD",
+      "type": "YEN",
       "value": 12.0
     },
     "size": {
@@ -480,8 +480,8 @@
     "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
     "discountRate": null,
     "price": {
-      "type": "USD",
-      "value": 12.77
+      "type": "JPY",
+      "value": 1638.12
     },
     "size": {
       "value": 240,
@@ -504,8 +504,8 @@
     "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
     "discountRate": 0.3,
     "price": {
-      "type": "USD",
-      "value": 14.27
+      "type": "JPY",
+      "value": 1830.50
     },
     "size": {
       "value": 200,
@@ -527,8 +527,8 @@
     "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
     "discountRate": null,
     "price": {
-      "type": "USD",
-      "value": 12.48
+      "type": "JPY",
+      "value": 1599
     },
     "size": {
       "value": 240,
@@ -550,8 +550,8 @@
     "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
     "discountRate": 0.2,
     "price": {
-      "type": "USD",
-      "value": 14.59
+      "type": "JPY",
+      "value": 1871.59
     },
     "size": {
       "value": 240,
