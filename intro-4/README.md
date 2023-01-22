@@ -7,7 +7,7 @@ A partire dall'array `flights` scrivere una semplice applicazione che simuli la 
 ## Specifiche stile
 
 - Il container principale è largo 1024px ed è centrato nella pagina;
-- La metà di sinistra è larga 3 volte la metà di sinistra;
+- La metà di sinistra è larga 3 volte la metà di destra;
 - Per i colori fare riferimento alle variabili nel file `style.css`.
 
 ## Funzionalità
