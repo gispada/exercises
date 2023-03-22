@@ -14,7 +14,8 @@ import {
   countTreeLeafNodes,
   get,
   createGeoJSON,
-  highlightActiveFeatures
+  highlightActiveFeatures,
+  getLineFromVTT
 } from './objects'
 
 describe('cloneObject', () => {
@@ -500,5 +501,52 @@ describe('highlightActiveFeatures', () => {
       ]
     }
     expect(highlightActiveFeatures(input, [4, 3])).toEqual(expected)
+  })
+})
+
+describe('getLineFromVTT', () => {
+  const vtt = `
+WEBVTT FILE
+
+00:03.500 --> 00:05.000
+Everyone wants the most from life
+
+00:06.000 --> 00:09.000
+Like internet experiences that are rich and entertaining
+
+00:11.000 --> 00:14.000
+Phone conversations where people truly connect
+
+00:14.500 --> 00:18.000
+Your favourite TV programmes ready to watch at the touch of a button
+
+00:19.000 --> 00:24.000
+Which is why we are bringing TV, internet and phone together in one super package
+
+00:24.500 --> 00:26.000
+One simple way to get everything
+
+00:26.500 --> 00:27.500
+UPC
+
+00:28.000 --> 00:30.000
+Goodbye!
+`
+  it('Returns the right line with a time in range', () => {
+    expect(getLineFromVTT(vtt, '00:16.783')).toEqual(
+      'Your favourite TV programmes ready to watch at the touch of a button'
+    )
+  })
+
+  it('Returns the right line with the exact start time ', () => {
+    expect(getLineFromVTT(vtt, '00:28.000')).toEqual('Goodbye!')
+  })
+
+  it('Returns the right line with the exact end time ', () => {
+    expect(getLineFromVTT(vtt, '00:30.000')).toEqual('Goodbye!')
+  })
+
+  it('Returns null when there are no lines ', () => {
+    expect(getLineFromVTT(vtt, '01:32.034')).toBeNull()
   })
 })

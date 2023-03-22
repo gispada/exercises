@@ -24,7 +24,8 @@ import {
   filter,
   reduce,
   some,
-  every
+  every,
+  moveToEnd
 } from './arrays'
 import { usersSimple, products, posts, comments, users } from '../mock'
 
@@ -567,5 +568,34 @@ describe('reduce', () => {
         ''
       )
     ).toEqual('1. A; 2. B; 3. C; 4. D; 5. E; ')
+  })
+})
+
+describe('moveToEnd', () => {
+  it('Moves a simple element to the end of the array', () => {
+    const expected = [11, 33, 4, 56, 12, 76, 92, 234, 87, 99]
+    expect(
+      moveToEnd([11, 99, 33, 4, 56, 12, 76, 92, 234, 87], (x) => x === 99)
+    ).toEqual(expected)
+  })
+
+  it('Moves an object to the end of the array', () => {
+    const expected = [
+      { id: 8, name: 'A' },
+      { id: 9, name: 'B' },
+      { id: 12, name: 'C' },
+      { id: 33, name: 'D' }
+    ]
+    expect(
+      moveToEnd(
+        [
+          { id: 33, name: 'D' },
+          { id: 8, name: 'A' },
+          { id: 9, name: 'B' },
+          { id: 12, name: 'C' }
+        ],
+        (x) => x.name === 'D'
+      )
+    ).toEqual(expected)
   })
 })

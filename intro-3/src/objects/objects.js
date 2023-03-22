@@ -82,3 +82,18 @@ export function createGeoJSON(data) {}
 // Per vedere i dati in input e il risultato finale, fare riferimento ai test.
 // NOTA: usare booleanIntersects (https://turfjs.org/docs/#booleanIntersects) per controllare se una geometria ne interseca un'altra.
 export function highlightActiveFeatures(geoJSON, point) {}
+
+// Data una stringa in formato VTT contentente una lista di sottotitoli associati a un istante temporale (inizio --> fine), es.:
+//
+// WEBVTT
+//
+// 00:01.000 --> 00:04.000
+// Never drink liquid nitrogen.
+//
+// 00:05.000 --> 00:09.000
+// It will perforate your stomach. ou could die.
+//
+// restituire la riga corretta in base a `time`.
+// Ad esempio, quando time è '00:07.988' la funzione deve restituire 'It will perforate your stomach. You could die.'
+// Restituire null se non ci sono sottotitoli per il time specificato. Tornando all'esempio di sopra, '00:37.430' restituisce null.
+export function getLineFromVTT(vtt, time) {}

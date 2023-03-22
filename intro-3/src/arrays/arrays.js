@@ -119,3 +119,7 @@ export function every(array, predicate) {}
 
 // Implementare il metodo nativo Array.reduce()
 export function reduce(array, reducer, initialState) {}
+
+// Dato un array e una funzione, spostare alla fine dell'array l'elemento per il quale la funzione ritorna true
+// Nota: soltanto uno degli elementi soddisfa la funzione shouldMove
+export function moveToEnd(array, shouldMove) {}
