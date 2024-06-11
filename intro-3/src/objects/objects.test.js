@@ -2,7 +2,7 @@ import { geoJSON } from '../mock'
 import {
   cloneObject,
   mergeObjects,
-  setPropery,
+  setProperty,
   toArray,
   filterObject,
   arrayToObject,
@@ -49,7 +49,7 @@ describe('mergeObjects', () => {
 describe('setProperty', () => {
   it('Sets the specified property without modyfing the original object', () => {
     const object = { name: 'John', age: 33, address: '5th Avenue' }
-    expect(setPropery(object, ['city', 'Rome'])).toEqual({
+    expect(setProperty(object, ['city', 'Rome'])).toEqual({
       name: 'John',
       age: 33,
       address: '5th Avenue',
