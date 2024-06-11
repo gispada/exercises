@@ -37,14 +37,14 @@ export function arrayToObjectDeep(array) {}
 // Dato un oggetto e una funzione `predicate` da chiamare con la coppia chiave-valore,
 // restituire true se almeno una delle proprietà dell'oggetto soddisfa la funzione `predicate`.
 // Es.: { name: 'Mary', age: 99, children: 4 } con predicate = (key, value) => value > 10
-// ritorna true perché è presente una proprietà maggiore di 10 (age)
+// restituisce true perché è presente una proprietà maggiore di 10 (age)
 export function hasValidProperty(object, predicate) {}
 
 // Dato un oggetto, estrarre tutti i valori che sono a loro volta oggetti in un oggetto separato, usando come chiave il loro id;
 // rimuovere la chiave nell'oggetto di partenza e sostituirla con `{nome_chiave}Id` e usare come valore l'id dell'oggetto estratto.
 // Es.: { id: 1, name: 'John', car: { id: 33, manufacturer: 'Ford' } } restituisce due oggetti:
 // { id: 1, name: 'John', carId: 33 } e l'altro { 33: { id: 33, manufacturer: 'Ford' } }
-// Ritornare un array con i due oggetti (vedere il test per altri esempi)
+// Restituire un array con i due oggetti (vedere il test per altri esempi)
 // Idealmente dovrebbe funzionare per ogni oggetto trovato dentro l'oggetto di partenza, anche quelli annidati
 export function normalizeObject(object) {}
 
@@ -64,9 +64,9 @@ export function countTreeLeafNodes(tree) {}
 
 // Dati un oggetto e un path di tipo stringa, `get` deve restituire la proprietà al path specificato.
 // Se path contiene punti, si tratta di proprietà annidate. `get` deve funzionare anche con gli array,
-// specificando un numero come indice. Se la proprietà non esiste ritornare fallback o undefined.
-// Es. 1: { address: { city: 'New York' } } e 'address.city' ritorna 'New York'
-// Es. 2: { movies: ['Shrek', 'Shrek 2'] } e 'movies.1' ritorna 'Shrek 2'
+// specificando un numero come indice. Se la proprietà non esiste restituire fallback o undefined.
+// Es. 1: { address: { city: 'New York' } } e 'address.city' restituisce 'New York'
+// Es. 2: { movies: ['Shrek', 'Shrek 2'] } e 'movies.1' restituisce 'Shrek 2'
 export function get(object, path, fallback) {}
 
 // Dato un oggetto con una struttura non uniforme contentente informazioni geografiche
@@ -78,7 +78,7 @@ export function createGeoJSON(data) {}
 // Dati un array contentente le coordinate [lng, lat] di alcune geometrie (linee e punti),
 // e un punto con coordinate [lng, lat], stabilire se il punto interseca una o più geometrie del primo array.
 // Se sì, convertire l'array in un oggetto GeoJSON valido, dove la/le feature intersecate
-// hanno `highlighted: true` all'interno dell'oggetto `properties`. Se il punto non interseca nulla, ritornare null.
+// hanno `highlighted: true` all'interno dell'oggetto `properties`. Se il punto non interseca nulla, restituire null.
 // Per vedere i dati in input e il risultato finale, fare riferimento ai test.
 // NOTA: usare booleanIntersects (https://turfjs.org/docs/#booleanIntersects) per controllare se una geometria ne interseca un'altra.
 export function highlightActiveFeatures(geoJSON, point) {}

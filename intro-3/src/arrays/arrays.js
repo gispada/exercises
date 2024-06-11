@@ -19,8 +19,8 @@ export function insertIntoArray(array, newElement, index) {}
 // Restituire null se non viene trovato nulla
 export function findBy(array, condition) {}
 
-// Come `findBy`, ma ritorna tutti gli elementi per i quali `condition` risulta vera
-// Se per nessun elemento risulta vera, ritornare un array vuoto
+// Come `findBy`, ma restituisce tutti gli elementi per i quali `condition` risulta vera
+// Se per nessun elemento risulta vera, restituire un array vuoto
 export function filterBy(array, condition) {}
 
 // Dato un array e un elemento, se l'elemento non è presente nell'array va inserito alla fine
@@ -28,7 +28,7 @@ export function filterBy(array, condition) {}
 export function toggleArrayItem(array, element) {}
 
 // Rimuove dall'array l'elemento all'indice specificato
-// Se l'indice è superiore o inferiore alla lunghezza dell'array, ritornare l'array originale
+// Se l'indice è superiore o inferiore alla lunghezza dell'array, restituire l'array originale
 export function removeFromArray(array, index) {}
 
 // Dati 2 o più array, unirli in un unico array
@@ -65,7 +65,7 @@ export function addExtraProperties(array, properties) {}
 export function removeProperties(array, properties) {}
 
 // Dato un array di oggetti con una chiave id e un array di id selezionati,
-// ritornare un nuovo array in cui gli elementi selezionati hanno la proprietà `selected`= true
+// restituire un nuovo array in cui gli elementi selezionati hanno la proprietà `selected`= true
 // Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'C' }] e selectedIds = [2, 3]
 // deve restituire [{ id: 1, name: 'A' }, { id: 2, name: 'B', selected: true }, { id: 3, name: 'C', selected: true }]
 // L'array originale e i suoi elementi non devono essere modificati
@@ -74,16 +74,16 @@ export function setSelected(array, selectedIds) {}
 // Dato un array di oggetti, rimapparlo estraendo la chiave specificata
 // Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'B' }] con chiave 'name'
 // deve restituire ['A', 'B', 'C']
-// Se la chiave non esiste, ritornare l'elemento originale
+// Se la chiave non esiste, restituire l'elemento originale
 export function mapTo(array, key) {}
 
 // Dato un array di oggetti e una funzione `predicate`, eseguire la funzione per ogni elemento
-// e ritornare true se per TUTTI è valida, altrimenti ritornare false
+// e restituire true se per TUTTI è valida, altrimenti restituire false
 // Es.: [{ id: 1, age: 32 }, { id: 2, age: 29 }] con predicate = (item) => item.age > 30,
-// `areItemsValid` ritorna false perché non tutti gli elementi hanno `age` maggiore di 30
+// `areItemsValid` restituisce false perché non tutti gli elementi hanno `age` maggiore di 30
 export function areItemsValid(array, predicate) {}
 
-// Dato un array di stringhe, un array di oggetti e una chiave, ritornare un nuovo array
+// Dato un array di stringhe, un array di oggetti e una chiave, restituire un nuovo array
 // dove ogni elemento del primo è sostuito col corrispondente elemento del secondo in base al valore di `key`
 // Es. array = ['11', '22', '33'], dataArray = [{ id: '33', name: 'A' }, { id: '11', name: 'B' }, { id: '22', name: 'C' }], key = 'id'
 // `populate` reve restituire [{ id: '11', name: 'B' }, { id: '22', name: 'C' }, { id: '33', name: 'A' }]
@@ -120,6 +120,6 @@ export function every(array, predicate) {}
 // Implementare il metodo nativo Array.reduce()
 export function reduce(array, reducer, initialState) {}
 
-// Dato un array e una funzione, spostare alla fine dell'array l'elemento per il quale la funzione ritorna true
+// Dato un array e una funzione, spostare alla fine dell'array l'elemento per il quale la funzione restituisce true
 // Nota: soltanto uno degli elementi soddisfa la funzione shouldMove
 export function moveToEnd(array, shouldMove) {}
