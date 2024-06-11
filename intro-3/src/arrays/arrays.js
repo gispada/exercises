@@ -72,7 +72,7 @@ export function removeProperties(array, properties) {}
 export function setSelected(array, selectedIds) {}
 
 // Dato un array di oggetti, rimapparlo estraendo la chiave specificata
-// Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'B' }] con chiave 'name'
+// Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'C' }] con chiave 'name'
 // deve restituire ['A', 'B', 'C']
 // Se la chiave non esiste, restituire l'elemento originale
 export function mapTo(array, key) {}
