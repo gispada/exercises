@@ -25,17 +25,17 @@ const user10 = Object.freeze({
 export const users = Object.freeze([user10])
 
 // addressChanges è un oggetto che contiene una o più proprietà di Address da cambiare, ad esempio { city: London }
-// Ritornare l'array di utenti con le proprietà cambiate, mantenendo invariate quelle non presenti in addressChanges
+// Restituire l'array di utenti con le proprietà cambiate, mantenendo invariate quelle non presenti in addressChanges
 export const changeUsersAddress = (users, addressChanges) => {}
 
-// Ritornare l'array di utenti senza geo in address
+// Restituire l'array di utenti senza geo in address
 export const removeAddressCoordinates = (users) => {}
 
-// Ritornare l'array di utenti senza company
+// Restituire l'array di utenti senza company
 export const removeCompanyInfo = (users) => {}
 
-// Aggiungere newUser a users e ritornare l'array
+// Restituire newUser a users e restituire l'array
 export const addNewUser = (users, newUser) => {}
 
-// Ritornare l'array di utenti con lat e lng dentro geo convertiti in numero, non stringa
+// Restituire l'array di utenti con lat e lng dentro geo convertiti in numero, non stringa
 export const convertUsersGeoToNumber = (users) => {}
