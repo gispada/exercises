@@ -4,7 +4,8 @@
   "description": "Exercises on arrays and objects, with tests",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "test:ui": "majestic"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
+    "majestic": "^1.8.1",
     "prettier": "^2.7.1"
   }
 }
