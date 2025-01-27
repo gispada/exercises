@@ -564,8 +564,8 @@ describe('reduce', () => {
     expect(
       reduce(
         [
-          { id: 10, name: 'pippo'}
-          ['age', 20 ],
+          { id: 10, name: 'pippo' },
+          ['age', 20],
           ['city', 'Rome'],
           ['name', 'Cicero']
         ],
@@ -591,10 +591,7 @@ describe('reduce', () => {
 
   it('Correctly reduces an array into a string without an initial value', () => {
     expect(
-      reduce(
-        ['A', 'B', 'C', 'D', 'E'],
-        (acc, value) => `${acc}, ${value}`
-      )
+      reduce(['A', 'B', 'C', 'D', 'E'], (acc, value) => `${acc}, ${value}`)
     ).toEqual('A, B, C, D, E')
   })
 })
