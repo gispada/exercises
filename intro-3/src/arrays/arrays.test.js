@@ -535,7 +535,7 @@ describe('reduce', () => {
   })
 
   it('Correctly reduces an array of numbers without an initial value', () => {
-    expect(reduce([1, 2, 3, 4, 5], (acc, n) => acc + n)).toEqual(15)
+    expect(reduce([1, 2, 3, 4, 5], (acc, n) => acc * n)).toEqual(120)
   })
 
   it('Correctly reduces an array of numbers with an initial value of 0', () => {
@@ -560,6 +560,25 @@ describe('reduce', () => {
     })
   })
 
+  it('Correctly reduces an array into an object without initial value', () => {
+    expect(
+      reduce(
+        [
+          { id: 10, name: 'pippo'}
+          ['age', 20 ],
+          ['city', 'Rome'],
+          ['name', 'Cicero']
+        ],
+        (acc, [key, value]) => ({ ...acc, [key]: value })
+      )
+    ).toEqual({
+      id: 10,
+      age: 20,
+      city: 'Rome',
+      name: 'Cicero'
+    })
+  })
+
   it('Correctly reduces an array into a string taking into account indexes', () => {
     expect(
       reduce(
@@ -568,6 +587,15 @@ describe('reduce', () => {
         ''
       )
     ).toEqual('1. A; 2. B; 3. C; 4. D; 5. E; ')
+  })
+
+  it('Correctly reduces an array into a string without an initial value', () => {
+    expect(
+      reduce(
+        ['A', 'B', 'C', 'D', 'E'],
+        (acc, value) => `${acc}, ${value}`
+      )
+    ).toEqual('A, B, C, D, E')
   })
 })
 
