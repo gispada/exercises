@@ -74,7 +74,7 @@ export function setSelected(array, selectedIds) {}
 // Dato un array di oggetti, rimapparlo estraendo la chiave specificata
 // Es.: [{ id: 1, name: 'A' }, { id: 2, name: 'B' }, { id: 3, name: 'C' }] con chiave 'name'
 // deve restituire ['A', 'B', 'C']
-// Se la chiave non esiste, restituire l'elemento originale
+// Se la chiave non esiste, restituire l'array originale
 export function mapTo(array, key) {}
 
 // Dato un array di oggetti e una funzione `predicate`, eseguire la funzione per ogni elemento
