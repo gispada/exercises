@@ -80,7 +80,7 @@ export function createGeoJSON(data) {}
 // Se sì, convertire l'array in un oggetto GeoJSON valido, dove la/le feature intersecate
 // hanno `highlighted: true` all'interno dell'oggetto `properties`. Se il punto non interseca nulla, restituire null.
 // Per vedere i dati in input e il risultato finale, fare riferimento ai test.
-// NOTA: usare booleanIntersects (https://turfjs.org/docs/#booleanIntersects) per controllare se una geometria ne interseca un'altra.
+// NOTA: usare booleanIntersects (https://turfjs.org/docs/api/booleanIntersects) per controllare se una geometria ne interseca un'altra.
 export function highlightActiveFeatures(geoJSON, point) {}
 
 // Data una stringa in formato VTT contentente una lista di sottotitoli associati a un istante temporale (inizio --> fine), es.:
